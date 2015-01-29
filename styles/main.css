@@ -4,3 +4,6 @@ body {}
   float: right;
   position: relative;
 }
+
+#lichess-hide a:after { content: ' ☐'; }
+#lichess-hide a.on:after { content: ' ☑'; }
