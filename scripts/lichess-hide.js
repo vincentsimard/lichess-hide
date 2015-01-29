@@ -23,6 +23,7 @@ function toggleHide(event) {
   event.preventDefault();
 
   this.classList.toggle('on');
+  document.body.classList.toggle('lichess-hide');
 }
 
 createButton();
