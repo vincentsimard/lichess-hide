@@ -8,7 +8,8 @@
 
 body.lichess-hide .watchers,
 body.lichess-hide .side_box .players,
-body.lichess-hide .lichess_ground .user_link {
+body.lichess-hide .lichess_ground .user_link,
+body.lichess-hide .crosstable {
   visibility: hidden;
 }
 
