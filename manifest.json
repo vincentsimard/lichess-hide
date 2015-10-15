@@ -1,6 +1,6 @@
 {
     "name": "lichess-hide",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "manifest_version": 2,
     "description": "Allows lichess.org users to hide opponent information, rating and spectator list",
     "icons": {
