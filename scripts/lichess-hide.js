@@ -12,7 +12,7 @@ function createButton() {
 
   div.id = NAME;
   a.href = '#';
-  a.className = 'toggle';
+  a.className = 'toggle link';
 
   a.appendChild(content);
   div.appendChild(a);
