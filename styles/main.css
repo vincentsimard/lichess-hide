@@ -9,7 +9,10 @@
 body.lichess-hide .watchers,
 body.lichess-hide .side_box .players,
 body.lichess-hide .lichess_ground .user_link,
-body.lichess-hide .crosstable {
+body.lichess-hide .crosstable,
+body.lichess-hide .vstext .left,
+body.lichess-hide .vstext .right,
+body.lichess-hide .confrontation {
   visibility: hidden;
 }
 
