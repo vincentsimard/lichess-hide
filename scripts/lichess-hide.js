@@ -7,10 +7,11 @@ function createButton() {
   var div = document.createElement('div');
   var a = document.createElement('a');
   var content = document.createTextNode('Hide information');
-  var previousElement = document.getElementById('message_notifications_parent');
+  var topElement = document.getElementById('top');
   var saved = localStorage.getItem(NAME);
 
   div.id = NAME;
+  div.className = 'fright';
   a.href = '#';
   a.className = 'toggle link';
 
@@ -19,7 +20,7 @@ function createButton() {
 
   a.addEventListener('click', toggleHide);
 
-  previousElement.parentNode.insertBefore(div, previousElement.nextSibling);
+  topElement.appendChild(div);
 
   if (saved && saved !== 'false') { a.click(); }
 }
